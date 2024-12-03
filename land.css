@@ -1,0 +1,441 @@
+body
+{
+    font-family: Harlow ;
+    font-size: large;
+    overflow-x: hidden;
+    
+      
+}
+.head
+{
+    color: white;
+    font-size:xx-large;
+}
+.Navbar 
+{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    margin-top: -600px;
+}
+.line
+{
+    border:none;
+ 
+    
+}
+.Navbar a 
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.home
+{
+    margin-left:800px;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+}
+.home:hover
+{
+    color:rgb(215, 215, 215);
+}
+.bene
+{
+    margin-left: 9px;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+}
+.bene:hover
+{
+    color:rgb(215, 215, 215);
+}
+.review
+{
+    margin-left: 9px;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+}
+.review:hover
+{
+    color:rgb(215, 215, 215);
+}
+.order {
+    margin-left: 30px; 
+    text-decoration: none;
+    background-color: #D0B48F;
+    border-color: #D0B48F;
+    font-weight: 100;
+    height: 35px;
+    width: 100px;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hero 
+{
+    background-image: url("hdbg.png"); 
+    background-size: cover; 
+    background-position: center center; 
+    height: 100vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    position: relative;
+    background-attachment: fixed;
+  
+}
+
+  
+  body {
+    font-family: 'Harlow', sans-serif; 
+  }
+  .hero h1 {
+    text-align: center;
+  }
+  .hero-content {
+    text-align: center;
+    color: white;
+}
+.hero1
+{
+    background-size: cover; 
+    background-position: center center; 
+    height: 100vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+    background-color: black;
+    
+}
+.feature1
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 280px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature2
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 100px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature3
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 300px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature4
+{
+    color: white;
+    margin-left:90px;
+    margin-top: 100px;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lines
+{
+    font-size: 15;
+    font-weight: lighter;
+}
+.hero2
+{
+    background-color:#ECECEC;
+    background-position: center center; 
+    height: 50vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+    height: 70%;
+}
+.sponsors
+{
+    font-weight:lighter;
+    margin-left:250px;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.tune
+{
+    margin-left: 100px;
+}
+.east
+{
+    margin-left: 100px;
+}
+.rock
+{
+    margin-left: -900px;
+    margin-top: 300px;
+}
+.week
+{
+    margin-left: -400px;
+    margin-top: 300px;
+}
+.wave
+{
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.hero3
+{
+    
+    background-size: cover; 
+    background-color: #E3CBAA;
+    background-position: center center; 
+    height: 100vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+}
+.logo
+{
+    font-weight:lighter;
+    margin-left:120px;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    margin-top: 200px;
+    width:40%;
+    height:50%;
+}
+.logotext
+{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    margin-left: 90px;
+    margin-top: 240px;
+}
+.logotext2
+{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter ;
+    font-size:20px;
+    margin-left: -460px;
+    margin-top: 400px;
+}
+.order12 {
+    text-decoration: none;
+    background-color: #D0B48F;
+    border-color: #D0B48F;
+    font-weight: 100;
+    height: 40px;
+    width: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left:-460px;
+    font-size: 1rem;
+}
+
+.reviews {
+    background-color: #ECECEC;
+    padding: 50px 20px;
+    text-align: center;
+    font-weight: lighter;
+    color:  black;
+}
+
+.reviews h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+ 
+    color: #D0B48F;
+}
+
+.carousel {
+    max-width: 1000px;
+    max-height:200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.review-item {
+    background: #ECECEC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #ECECEC;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing:border-box;
+    
+}
+
+
+.review-item p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.hero4
+{
+    background-size:auto; 
+    background-color:#2D2D2D;
+    background-position: center center; 
+    height: 50vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+    
+}
+.con 
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.mail
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 210px;
+    margin-left: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid #D0B48F; 
+    color: white;
+    padding: 10px; 
+    font-size: 1em;
+    outline: none;
+   
+}
+
+
+.order1
+{
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: #D0B48F;
+    border-color: #D0B48F;
+    font-weight:400;
+    height: 35px;
+    width:100px;
+    margin-top: 220px;
+    display: flex;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.hero5
+{
+    background-size:auto; 
+    background-color:#E3E3E3;
+    background-position: center center; 
+    height: 30vh; 
+    width:101.4%;
+    display:flex;
+    margin-top:-10px;
+    margin-left: -10px;
+    background-attachment: fixed;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%; 
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px; 
+}
+
+.left-group {
+    flex: 1;
+    text-align: left; 
+}
+
+.right-group {
+    flex: 1; 
+    text-align: right; 
+}
+
+
+.home1, .bene1, .review1 {
+    margin-top: 20px;
+}
+
+.shipping, .policy, .payment, .faq {
+    margin-top: 40px;
+}
+.footer1
+{
+    background-color: rgb(96, 96, 96);
+    border-radius:100px;
+    padding:2px;
+    justify-content:space-evenly;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+}
+.ins,.li,.fb,.twi
+{
+    padding:0px 40px;
+    margin:2px;
+    color:rgb(208, 208, 208);
+}
+.ins:hover
+{
+    color:rgb(255, 106, 0);
+}
+.li:hover
+{
+    color:rgb(38, 102, 192);
+
+}
+.fb:hover
+{
+    color:rgb(52, 166, 247);
+}
+.twi:hover
+{
+    color:lightskyblue;
+}
+.text 
+{
+    display: flex;
+    margin-top: 200px;
+    margin-left:-1300px;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+.order3
+{
+    margin-left: -650px;
+    text-decoration: none;
+    background-color:transparent;
+    border-color:white;
+    font-weight:400;
+    height: 45px;
+    width:150px;
+    margin-top: 320px;
+    display: flex;
+    color:white;
+    font-size: 1.2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+

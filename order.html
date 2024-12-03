@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <div class="product-page">
+    <div class="product-container">
+      <div class="product-image">
+        <img id="main-image" src="orderlogo.png" alt="Headphones">
+        <div class="thumbnails">
+          <img src="hdlogo1.png" alt="Thumbnail 1">
+          <img src="thumb1.jpeg" alt="Thumbnail 2">
+          <img src="thumb2.png" alt="Thumbnail 3">
+        </div>
+        <p class="description">
+          Experience superior sound quality with the Soundbeam ERD - 3083 headphones. Designed for audiophiles, these headphones offer an immersive listening experience with crystal-clear audio, deep bass, and comfortable, cushioned ear pads. The sleek and durable build ensures a perfect blend of style and functionality.
+        </p>
+      </div>
+      <div class="product-details">
+        <div class="navigation">
+          <span>&lt; Prev</span>
+          <span>Next &gt;</span>
+        </div>
+        <h1>Soundbeam ERD - 3083</h1>
+        <p class="sku">SKU: 00001</p>
+        <p class="price">₹299.00</p>
+        <div class="color-selection">
+          <p>Color</p>
+          <label>
+            <input type="radio" name="color" value="black" checked hidden onclick="changeImage('orderlogo.png')">
+            <span class="color black"></span>
+          </label>
+          <label>
+            <input type="radio" name="color" value="white" hidden onclick="changeImage('thumb1.jpeg')">
+            <span class="color white"></span>
+          </label>
+          <label>
+            <input type="radio" name="color" value="gold" hidden onclick="changeImage('hdlogo1.png')">
+            <span class="color gold"></span>
+          </label>
+        </div>
+        <div class="quantity">
+          <p>Quantity</p>
+          <input type="number" value="1" min="1">
+        </div>
+        <div class="actions">
+          <button class="order-now">Order Now</button>
+          <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="accordion">
+          <div class="accordion-item">
+            <p class="accordion-title">Product Info</p>
+            <div class="accordion-content">
+              Driver Size: 40mm Dynamic Drivers<br>
+              Frequency Response: 20Hz - 20kHz<br>
+              Connectivity: Wired with a 3.5mm audio jack<br>
+              Materials: Premium leather ear cushions and an adjustable stainless steel headband<br>
+              Weight: 250g<br>
+              Compatibility: Works with all 3.5mm audio devices including phones, tablets, laptops, and PCs.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <p class="accordion-title">Return & Refund Policy</p>
+            <div class="accordion-content">
+              We offer a 30-day return policy for all purchases. If you're not satisfied with the product, you can return it for a full refund or replacement, subject to our terms and conditions.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <p class="accordion-title">Shipping Info</p>
+            <div class="accordion-content">
+              Shipping Time: 3-7 business days within India<br>
+              Delivery Partners: FedEx, Bluedart, and Delhivery<br>
+              International Shipping: Available with additional charges.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
