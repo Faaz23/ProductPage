@@ -16,7 +16,7 @@ body
     width: 100%;
     display: flex;
     align-items: center; 
-    margin-top: -800px;
+    margin-top: -700px;
     justify-content: space-around;
 }
 .line
