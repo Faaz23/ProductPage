@@ -14,7 +14,7 @@ body
 .Navbar 
 {
     width: 90%;
-    margin-left:30px;
+    margin-left:50px;
     display: flex;
     align-items: center; 
     margin-top: -700px;
